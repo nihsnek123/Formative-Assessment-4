@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 140px;
+  }
+  body {
+    background-color:offblack;
+  }
+
+  nav {
+    background-color:lightsteelblue;
+    border-radius:10px;
+      ul {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+  }
+  }
+
+  .about-section {
+    background-color:darkolivegreen;
+    border-radius:15px;
+    color:beige;
+  
+  }
+  
+  .schedule-section {
+    background-color:firebrick;
+    border-radius:15px;
+    color:white;
+    
+      table {
+        border-collapse:collapse;
+        border-radius:15px;
+    
+      td, th {
+        padding:10px;
+    
+  }
+  }
+  }
+  
+  .location-section {
+    background-color: lightslategrey;
+    border-radius:15px;
+    color:white;
+  }
+  
+  .contact-section {
+    
+    fieldset {
+    background-color:white;
+    
+      legend {
+        background-color:white;
+        border-radius:20px;
+        border:1px solid;
+    
+  }
+  }
+  }
+  
+  .submit-button {
+    text-align:center;
+      
+      button {
+    background-color:green;
+    color:white;
+    border-radius:15px;
+  }
+  }
+  
+</style>
+
+<body>
+  
+  <header><h1><em>EAC Gaming Club</em></h1></header>
+  
+  <nav>
+    <ul type="none">
+      <li><a href="#About">About</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section id="About" class="about-section">
+    <h2><strong><em>About</em></strong></h2>
+    
+    <p>- <strong>The EAC Gaming club </strong> is for those who seek to be the <em>best</em> of the <em>BEST</em> in gaming. Be it that you're seeking to become a professional or just want to have fun, our club is your go to!</p>
+    
+    </dt><h3><strong><em>Our Offers</em></strong></h3>
+    
+    <ul>
+      <li>Help you improve your gaming skills (Any Games)</li><br>
+      <li>Access to the computers</li><br>
+      <li>An active community willing to help you out anytime!</li>
+    </ul>
+    
+    <h3><strong><em>How To Join Our Club</em></strong></h3>
+    
+    <ol>
+      <li>Go to our stand and scan the QR code</li>
+      <li>Fill the necessary forms</li>
+      <li>Attend our orientation</li>
+      <li>Wait for your official registration</li>
+    </ol>
+    
+    
+
+  </section>
+  
+  <section id="schedule" class="schedule-section">
+    <h2><strong><em>Weekly Schedule</em></strong></h2>
+    
+    <table border="1">
+      <tr>
+        <th colspan="3">Gaming Club's Weekly Schedule</th>
+      
+      </tr>
+      
+      <tr>
+        <th>Day</th>
+        <th>Time</th>
+        <th>Activity</th>  
+      </tr>
+      
+      <tr>
+        <td rowspan="2">Tuesday</td>
+        <td rowspan="2">9:00am - 10:00am</td>
+        <td>Club Meeting</td>
+      </tr>
+      
+      <tr>
+        <td>Recruitment Of Students</td>
+      </tr>
+      
+      <tr>
+        <td>Thursday</td>
+        <td>8:00am - 9:00am</td>
+        <td>Discussing and Organizing of Tournaments</td>
+      </tr>
+      
+      <tr>
+        <td rowspan="2">Friday</td>
+        <td rowspan="2">10:00am - 1pm</td>
+        <td>Organizing players</td>
+      </tr>
+      
+      <tr>
+        <td>Playing the games</td>
+      </tr>
+      
+      
+    </table>
+    
+    
+    
+    
+    
+    
+  </section>
+  
+  <section id="location" class="location-section">
+    <h2><strong><em>Where We Meet</em></strong></h2>
+    
+    <p><em>Emilio Aguinaldo College <br>
+      Room 303, Laboratory Building</em></p>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4591.8768386522215!2d120.9834678663004!3d14.582385986136131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca277115fe3d%3A0x3e7364c76b93c9ab!2sEmilio%20Aguinaldo%20College!5e0!3m2!1sen!2sph!4v1787793722703!5m2!1sen!2sph" width="340" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    
+    
+    
+    
+  </section><br>
+  
+  <section id="contact" class="contact-section">
+    
+    <form action="save.html" method="GET">
+      
+      <fieldset>
+        <legend style="text-align:center;"><h2><strong>Registration Form</strong></h2></legend>
+        
+        <label for="fname"><em>Full Name:</em></label><br>
+        <input type="text" required name="fname" id="fname" placeholder="Enter your Full Name"><br><br>
+        
+        <label for="email"><em>Email Address:</em></label><br>
+        <input type="email" required name="email" id="email" placeholder="Email@gmail.com"><br><br>
+        
+        <label for="grade"><em>Grade Level:</em></label><br>
+        
+        <select id="grade" name="grade">
+          <option>- Select Grade Level -</option>
+          <option value="11">Grade 11</option>
+          <option value="12">Grade 12</option>
+        </select><br><br>
+        
+        <label><em>Interest/s</em></label><br>
+        
+        <input type="radio" required name="interest" value="ml">
+        <label>Mobile Legends</label>
+        
+        <input type="radio" required name="interest" value="codm">
+        <label>Call Of Duty Mobile</label>
+        
+        <input type="radio" required name="interest" value="cf">
+        <label>Crossfire</label>
+        
+        <input type="radio" required name="interest" value="roblox">
+        <label>Roblox</label>
+        
+        <input type="radio" required name="interest" value="valorant">
+        <label>Valorant</label><br><br>
+        
+        <label for="message"><em>Message</em></label>
+       <textarea name="message" id="message" cols="38" rows="5"></textarea><br><br>
+       
+       <div class="submit-button">
+       <button type="submit">Submit</button>
+       </div>
+      
+      
+      </fieldset>
+      
+      
+      
+      
+    </form>
+    
+    
+    
+    
+    
+    
+  </section>
+  
+  
+  
+</body>
+
+</html>
